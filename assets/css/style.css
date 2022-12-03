@@ -29,6 +29,41 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
+
+.irishflag { 
+  box-shadow: 5px 0 #169B62 inset,10px 0 #FFFFFF inset, 15px 0 #FF883E inset;
+  width: 15px;
+  height: 2px;
+  /* display: flex; */
+  padding: 0 10px;
+}
+
+.indianflag { 
+  box-shadow: 0 5px #FF883E inset,0 10px #FFFFFF inset, 0 15px #169B62 inset;
+  width: 15px;
+  height: 15px;
+  /* display: flex; */
+  /* padding: 0 8px; */
+}
+
+.top {
+  background-color: orange;
+  width: 15px;
+  height: 4px;
+}
+
+.mid {
+  background-color: white;
+  width: 15px;
+  height: 4px;
+}
+
+.botm {
+  background-color: green;
+  width: 15px;
+  height: 4px;
+}
+
 .back-to-top {
   position: fixed;
   display: none;
@@ -230,6 +265,13 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
+}
+
+#hero .hero-container-right {
+  position: relative;
+  z-index: 2;
+  min-width: 400px;
+  padding: 330px;
 }
 
 #hero h1 {

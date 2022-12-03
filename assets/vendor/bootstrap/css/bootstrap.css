@@ -7222,6 +7222,8 @@ button.bg-dark:focus {
   justify-content: center !important;
 }
 
+
+
 .justify-content-between {
   -ms-flex-pack: justify !important;
   justify-content: space-between !important;
@@ -7243,8 +7245,11 @@ button.bg-dark:focus {
 }
 
 .align-items-center {
-  -ms-flex-align: center !important;
-  align-items: center !important;
+  margin-left: auto; 
+  margin-right: 0;
+  -ms-flex-align: right !important;
+  align-items: right !important;
+  
 }
 
 .align-items-baseline {
